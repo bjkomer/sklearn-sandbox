@@ -4,11 +4,11 @@ from sklearn.datasets import fetch_20newsgroups
 categories = ['alt.atheism', 'comp.graphics', 'sci.space' ]
 
 newsgroups_train = fetch_20newsgroups( subset='train', 
-#                                       categories=categories,
-                                       remove=( 'headers', 'footers', 'quotes' ) )
+                                       categories=categories,)
+#                                       remove=( 'headers', 'footers', 'quotes' ) )
 newsgroups_test = fetch_20newsgroups( subset='test', 
-#                                      categories=categories,
-                                      remove=( 'headers', 'footers', 'quotes' ) )
+                                      categories=categories,)
+#                                      remove=( 'headers', 'footers', 'quotes' ) )
 
 from pprint import pprint
 
