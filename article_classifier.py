@@ -29,12 +29,12 @@ vectors_test = vectorizer.transform( newsgroups_test.data )
 
 #clf = svm.LinearSVC( multi_class='crammer_singer' )
 #clf = svm.LinearSVC( loss='l1', penalty='l2', dual=True )
-#clf = svm.LinearSVC( )
+clf = svm.LinearSVC( )
 #clf = svm.SVC( kernel='rbf' )
 #clf = svm.SVC( kernel='linear' )
 #clf = svm.SVC( kernel='sigmoid' )
 #clf = svm.SVC( kernel='poly', degree=3 )
-clf = SGDClassifier(loss="hinge", penalty="l2")
+#clf = SGDClassifier(loss="hinge", penalty="l2")
 
 #####
 
